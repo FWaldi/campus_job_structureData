@@ -1,0 +1,302 @@
+kode program C++:
+syarat: Penamaan fungsi, variabel dan sejenisnya dalam souce code wajib diterapkan dalam bahasa Indonesia kecuali untuk keyword atau fungsi bawaan bahasa pemrograman.
+Konsep Kode program C++ dengan output seperti berikut:
+
+======================================================================
+SELAMAT DATANG PADA PROGRAM SIMULASI STRUKTUR DATA
+======================================================================
+//jika menekan tombol maka lanjut ke menu berikut
+======================================================================
+Pemograman: Fitri Waldi
+NIM: 22343021
+Program Tugas Akhir Struktur Data
+======================================================================
+//ditekan  tombol lanjut ke menu berikut
+======================================================================
+Pilih Program 
+======================================================================
+1. Program Pengeditan Data
+2. Simulasi Data
+3. Sorting & Search
+4. Menampilkan Data
+======================================================================
+5. Keluar
+======================================================================
+======================================================================
+//jika dipilih "5.keluar" mengeluarkan menu:
+======================================================================
+TERIMAKASIH SUDAH MENGGUNAKAN  PROGRAM INI!!!
+======================================================================
+//jika menekan selain menu yang disediakan maka program tidak akan merespon
+
+
+
+//jika ditekan "1. Program Pengeditan Data" maka akan  muncul menu berikut
+======================================================================
+Program Pengeditan Data
+======================================================================
+1. Input Data
+2. Hapus Data
+======================================================================
+*tekan esc untuk kembali ke menu Pilih Program
+======================================================================
+//jika dipilih salah satu maka keluar menu baru
+
+//menu "1. input data"
+======================================================================
+Masukkan Data: 
+
+======================================================================
+*Tekan enter untuk memasukkan data 
+*Tekan esc untuk kembali
+======================================================================
+//jika menekan enter maka dia akan langsung untuk mau menerima data baru sampai ditekan esc
+//data yang dimasukkan berupa int dan hanya menerima int 
+//jika memasukkan selain int maka keluar menu
+======================================================================
+Maaf Program Ini Hanya Menerima Data Berupa Integer
+======================================================================
+*Tekan enter untuk kembali ke Program Input Data
+*Tekan esc untuk kembali ke menu Program Pengeditan Data
+======================================================================
+
+//menu "2. hapus data"
+======================================================================
+Data:
+======================================================================
+/*contoh: 
+35 36 90 89*/
+======================================================================
+Pilih Data Yang Ingin Dihapus:
+
+======================================================================
+*Pilih dari data, contoh: 35
+======================================================================
+*Tekan enter untuk menghapus data
+*Tekan esc untuk kembali
+======================================================================
+//jika memilih suatu data yang tidak ada maka keluar menu
+======================================================================
+Maaf Data Yang Ingin Anda Hapus Tidak Ada
+======================================================================
+*Tekan enter untuk kembali ke menu Program Hapus Data
+*Tekan esc untuk kembali ke menu Program Pengeditan Data
+======================================================================
+
+
+
+//jika ditekan "2. Simulasi Data" maka akan  muncul menu berikut
+======================================================================
+Simulasi Data
+======================================================================
+1. Stack Linked List
+2. Queue Double Linked List
+======================================================================
+*tekan esc untuk kembali ke menu Pilih Program
+======================================================================
+
+
+//menu "1. Stack Linked List"
+======================================================================
+Stack Linked List
+======================================================================
+Data:
+======================================================================
+/*contoh:
+45 32 67 90*/
+======================================================================
+//data yang akan ditampilkan adalah data yang telah diinsert dan itu hanya labelnya saja tidak isinya
+======================================================================
+1. Push
+2. Pop
+======================================================================
+Stack:
+/*contoh:
+2--->5---->6*/
+======================================================================
+======================================================================
+*Tekan esc untuk kembali
+======================================================================
+//jika Stacknya kosong maka tampilannya kosong
+//menunya langsung muncul semua dari "Stack linked list" sampai "*Tekan esc untuk kembali"
+
+//menu "1. push"
+======================================================================
+Pilih Data Yang Akan DiPush:
+
+======================================================================
+======================================================================
+*Tekan enter untuk Push data
+*Tekan esc untuk kembali ke menu Stack Linked List
+======================================================================
+//data yang dipop adalah data yang telah diinput, jika datanya tidak ada maka keluar menu, data yang telah di pop akan muncul kembali ke data
+======================================================================
+Maaf Data Yang Anda Pilih Tidak Ada
+======================================================================
+*Tekan enter untuk kembali ke menu Program Push
+*Tekan esc untuk kembali ke menu Stack Linked List
+======================================================================
+
+
+//menu "2. pop"
+======================================================================
+Pilih Data Yang Akan DiPop:
+
+======================================================================
+======================================================================
+*Tekan enter untuk Pop data
+*Tekan esc untuk kembali ke menu Queue Linked List
+======================================================================
+//data yang dipop adalah data yang telah diinput, jika datanya tidak ada maka keluar menu, data yang telah di pop akan muncul kembali ke data
+======================================================================
+Maaf Data Yang Anda Pilih Tidak Ada
+======================================================================
+*Tekan enter untuk kembali ke menu Program Pop
+*Tekan esc untuk kembali ke menu Stack Linked List
+======================================================================
+
+//menu "2. Queue Double Linked List"
+======================================================================
+Queue Double Linked List
+======================================================================
+Data:
+======================================================================
+/*contoh:
+45 32 67 90*/
+======================================================================
+//data yang akan ditampilkan adalah data yang telah diinsert dan itu hanya labelnya saja tidak isinya
+======================================================================
+1. Push
+2. Pop
+======================================================================
+Queue:
+/*contoh:
+2--->5---->76*/
+======================================================================
+======================================================================
+*Tekan esc untuk kembali
+======================================================================
+//jika Stacknya kosong maka tampilannya kosong
+//menunya langsung muncul semua dari "Queue Double Linked List" sampai "*Tekan esc untuk kembali"
+
+//menu "1. push"
+======================================================================
+Pilih Data Yang Akan DiPush:
+
+======================================================================
+======================================================================
+*Tekan enter untuk Push data
+*Tekan esc untuk kembali ke menu Queue Double Linked List
+======================================================================
+//data yang dipop adalah data yang telah diinput, jika datanya tidak ada maka keluar menu
+======================================================================
+Maaf Data Yang Anda Pilih Tidak Ada
+======================================================================
+*Tekan enter untuk kembali ke menu Program Push
+*Tekan esc untuk kembali ke menu Queue Double Linked List
+======================================================================
+
+
+//menu "2. pop"
+======================================================================
+Pilih Data Yang Akan DiPop:
+
+======================================================================
+======================================================================
+*Tekan enter untuk Pop data
+*Tekan esc untuk kembali ke menu Queue Double Linked List
+======================================================================
+//data yang dipop adalah data yang telah diinput, jika datanya tidak ada maka keluar menu
+======================================================================
+Maaf Data Yang Anda Pilih Tidak Ada
+======================================================================
+*Tekan enter untuk kembali ke menu Program Pop
+*Tekan esc untuk kembali ke menu Queue Double Linked List
+======================================================================
+
+
+
+//jika ditekan "3. Sorting & Search" maka akan  muncul menu berikut
+======================================================================
+Sorting & Search
+======================================================================
+1. Sorting
+2. Search
+======================================================================
+*tekan esc untuk kembali ke menu Pilih Program
+======================================================================
+//Pengururtan Data menggunakan Selection Sort
+//Search menggunakan Binary Search
+
+
+//menu "1.sorting"
+======================================================================
+Data:
+/*contoh:
+90 45 78 3
+*/
+======================================================================
+Sorting:
+/*contoh:
+3 45 78 90
+*/
+======================================================================
+*Tekan esc untuk kembali ke menu Sorting & Search
+======================================================================
+//data yang ditampilkan adalah data yang diinsert sesuai urutan diinsert 
+//semuanya secara otomatis
+
+//jika memilih menu "2. search" tanpa melakukan sorting maka dia akan menampilkan menu
+======================================================================
+Maaf lakukan Sorting terlebih dahulu
+======================================================================
+*Tekan esc untuk kembali ke menu Sorting & Search
+======================================================================
+//dengan mensorting dahulu maka baru bisa untuk melakukan search
+//jika memelih menu "1. sorting" setelah melakukan sorting maka akan menampilkan menu
+======================================================================
+Sorting:
+/*contoh:
+90 45 78 3
+*/
+======================================================================
+*Tekan esc untuk kembali ke menu Sorting & Search
+======================================================================
+//sekarang tidak ada data yang acak lagi hanya menampilkan data yang telah disorting
+
+
+//menu "2. Search"
+======================================================================
+Data:
+/*contoh:
+3 45 78 90
+*/
+======================================================================
+Search:
+
+======================================================================
+*Tekan enter untuk search
+*Tekan esc untuk kembali ke menu Sorting & Search
+======================================================================
+//data yang ditampilkan adalah data yang telah disorting
+//jika menekan search makan akan mucul menu
+======================================================================
+Data tersebut terdapat pada index ke-
+======================================================================
+*Tekan enter untuk kembali ke menu Search
+*Tekan esc untuk kembali ke menu Sorting & Search
+======================================================================
+
+
+
+//jika ditekan "4. Menampilkan Data" maka akan  muncul menu berikut
+======================================================================
+Menampilkan Data
+======================================================================
+Data: 8 9 65 73 34 56 90 34 55 100
+======================================================================
+Sorting:
+======================================================================
+*tekan esc untuk kembali ke menu Pilih Program
+======================================================================
+//khusus program 4, datanya sudah tersedia dan akan ditampilkan serta di sorting secara otomatis
